@@ -9,9 +9,9 @@ def arreglar_texto(texto):
 def main():
     texto_extraido = "052 :sáirotaloc, satatap :atecéR"
     lista_de_texto = arreglar_texto(texto_extraido)
-    recipe_name = lista_de_texto[1]
-    calories = lista_de_texto[3]
-    lectura = f"Receta: {recipe_name}\nCalorías: {calories}"
+    nombre = lista_de_texto[1]
+    calorias = lista_de_texto[3]
+    lectura = f"Receta: {nombre}\nCalorías: {calorias}"
 
     print(lectura)
 
