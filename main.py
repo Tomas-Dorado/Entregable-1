@@ -2,7 +2,7 @@ import Ejercicio_1
 import Ejercicio_2
 import Ejercicio_3
 import Ejercicio_4
-# import Ejercicio_5
+import Ejercicio_5
 # import Ejercicio_6
 # import Ejercicio_7
 
