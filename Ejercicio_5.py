@@ -1,4 +1,5 @@
 def descomponer_ip(direccion_ip):
+    '''Agarra la dirección IP y la descompone en octetos, comprobando que sea válida'''
     try:
         octetos = direccion_ip.split('.')
         print(octetos)
@@ -12,7 +13,7 @@ def descomponer_ip(direccion_ip):
 def main():
     direccion_ip = input("Introduce una dirección IP (xxx.xxx.xxx.xxx): ")
     descomponer_ip(direccion_ip)
-    
+
 if __name__ == "__main__":
     main()
 
